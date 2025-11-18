@@ -1,0 +1,183 @@
+.btn-secondary.dropdown-toggle {
+    background-color: rgb(110, 16, 110) !important;
+    border-color: rgb(110, 16, 110) !important;
+}
+.dropdown-menu .dropdown-menu {
+    margin-left: 0;
+    margin-right: 0;
+}
+.btn-group.dropright .dropdown-toggle::after {
+    border-top: 0.3em solid transparent;
+    border-right: 0;
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.3em solid;
+}
+.carousel-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: large;
+}
+.navbar, footer, .dropdown-menu {
+    background-color: rgb(110, 16, 110) !important;
+}
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-toggler,
+.navbar .dropdown-toggle,
+.dropdown-item {
+    color: white !important;
+}
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: rgb(110, 16, 110) !important;
+    filter: brightness(1.15);
+    color: white !important;
+}
+.dropdown-submenu .dropdown-menu {
+    background-color: rgb(110, 16, 110) !important;
+}
+.dropdown-submenu .dropdown-item:hover {
+    background-color: rgb(150, 50, 150) !important;
+}
+.card, .pagination {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.card, 
+.card .card-title, 
+.card .card-text, 
+.card a,
+.breadcrumb-item a {
+    color: black !important;
+}
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    gap: 40px;
+}
+.conteudo1 {
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 5px;
+}
+.conteudo2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 50px;
+    padding-top: 20px;
+    gap: 40px;
+}
+.subconteudo {
+    padding-left: 50px;
+}
+.conteudo3 {
+    padding-top: 20px;
+}
+.conteudo4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 50px;
+    padding-top: 20px;
+    gap: 20px;
+}
+.conteudo5 {
+    display: flex;
+    gap: 60px;
+}
+.footertext, .footerlink {
+    margin-top: 5px;
+}
+.footerconteudo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
+    color: white;
+}
+.footerconteudo2 {
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+    padding-left: 10px;
+    color: white;
+}
+.footerconteudo3 {
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -15px;
+    padding-left: 10px;
+    color: white;
+}
+.mapa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.btnidioma {
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: rgb(110, 16, 110) !important;
+    border-color: rgb(110, 16, 110) !important;
+    color: white !important;
+}
+.btnidioma:hover {
+    background-color: rgb(140, 20, 140) !important;
+}
+@media (max-width: 768px) {
+    .conteudo1,
+    .conteudo2,
+    .conteudo4,
+    .conteudo5,
+    .mapa {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .conteudo2 img,
+    .conteudo4 img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .subconteudo {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .card1 {
+        flex-direction: column !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        gap: 20px !important;
+    }
+    .mapa {
+        max-width: 100% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .carousel-responsivo {
+        max-height: 350px;
+    }
+    .carousel-responsivo .carousel-item img {
+        max-height: 350px;
+        object-fit: cover;
+    }
+}
