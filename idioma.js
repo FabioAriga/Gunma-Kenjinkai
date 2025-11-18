@@ -176,7 +176,7 @@ const translations = {
 
     <div class="conteudo4">
         <div>
-            <h2>Gunma Kenjinkai do Brasil</h2>
+            <h2>Gunma Kenjin do Brasil</h2>
             <p>A Associação Cultural Gunma Kenjin do Brasil, fundada em 1945, é uma entidade sem fins lucrativos dedicada a preservar e divulgar a cultura japonesa, especialmente as tradições da província de Gunma. Com sede na Liberdade, em São Paulo, a associação promove eventos culturais, sociais e beneficentes, além de manter um programa de bolsas que há mais de 60 anos oferece oportunidades de estudo e estágio no Japão. Nossa missão é fortalecer os laços entre Brasil e Japão, apoiando a comunidade e criando pontes para as futuras gerações.</p>
         </div>
         <img src="Gunma.jpg" width="auto" height="200" alt="">
